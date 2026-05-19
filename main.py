@@ -27,7 +27,7 @@ def main():
     action = check_rules(ip,firewall_rules)
     random_number = random.randint(0,9999)
     print(f"{ip} : {action} :{random_number}")
-    time.sleep(1)
+    time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
